@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Download</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #f0f4ff, #d9e4ff);
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            width: 100%;
+            background: linear-gradient(45deg, #4A90E2, #9013FE);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Download Container */
+        .download-container {
+            text-align: center;
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            margin-top: 30px;
+            max-width: 400px;
+            transition: transform 0.3s;
+        }
+
+        .download-container:hover {
+            transform: translateY(-5px);
+        }
+
+        .download-container h2 {
+            margin-bottom: 25px;
+            font-size: 24px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        /* Image Gallery */
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .image-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .image-item:hover {
+            transform: translateY(-5px);
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .topic {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .download-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(45deg, #9013FE, #4A90E2);
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(144, 19, 254, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background: linear-gradient(45deg, #4A90E2, #9013FE);
+            box-shadow: 0 6px 20px rgba(74, 144, 226, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <header>End User Applications</header>
+    <!-- Image Gallery with Topics -->
+    <div class="image-gallery">
+        <!-- Image 1 - MS Word -->
+        <div class="image-item">
+            <div class="topic">MS Word</div>
+            <img src="Task 01.png" alt="MS Word">
+            <a href="https://drive.google.com/uc?export=download&id=1-M9NTZExOsw_3FnWJocjHisYjWBlBVgV" download="MS_Word_Assignment.png" class="download-btn">Download Assignment</a>
+        </div>
+        <!-- Image 2 - MS Excel -->
+        <div class="image-item">
+            <div class="topic">MS Excel</div>
+            <img src="Task 02.png" alt="MS Excel">
+            <a href="https://drive.google.com/uc?export=download&id=1-KF57SWPt68cTE3zW8AZo3yDo4-wDN6V" download="MS_Excel_Assignment.png" class="download-btn">Download Assignment</a>
+        </div>
+        <!-- Image 3 - MS Access -->
+        <div class="image-item">
+            <div class="topic">MS Access</div>
+            <img src="Task 03.png" alt="MS Access">
+            <a href="https://drive.google.com/uc?export=download&id=1-EH-oUABOswmGAVmXLkffymijPu8pccU" download="MS_Access_Assignment.png" class="download-btn">Download Assignment</a>
+        </div>
+        <!-- Image 4 - MS PowerPoint -->
+        <div class="image-item">
+            <div class="topic">MS PowerPoint</div>
+            <img src="Task 04.png" alt="MS PowerPoint">
+            <a href="https://drive.google.com/uc?export=download&id=1-d6zklcuKcbZM6k56ZvwLiM5_V72A3e-" download="MS_PowerPoint_Assignment.png" class="download-btn">Download Assignment</a>
+        </div>
+    </div>
+     <div class="download-container">
+        <h2>Download All Assignments File</h2>
+        <a href="https://drive.google.com/uc?export=download&id=1-gykcuyC6QbZgOyijnNmCmCsOCP5jWtg" download="sample.pdf" class="download-btn">Download Now</a>
+    </div>
+</body>
+</html>
